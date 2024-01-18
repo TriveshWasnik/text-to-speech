@@ -35,6 +35,13 @@ textarea {
   border: none;
   outline: none;
 }
+
+@media screen and (max-width: 320px) {
+  textarea {
+    width: 320px;
+  }
+}
+
 select,
 button {
   height: 35px;
